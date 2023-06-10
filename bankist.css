@@ -1,0 +1,117 @@
+/* Reset default margin and padding */
+#show {
+    opacity: 0%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+.centered-placeholder {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #444;
+    color: #fff;
+}
+
+#log {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#log:hover {
+    background-color: #45a049;
+}
+
+#show {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#balance {
+    font-size: 48px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+#record {
+    margin-top: 20px;
+    background-color: #444;
+    padding: 10px;
+}
+
+#record div {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #555;
+}
+
+#transferTo,
+#amountTransfer,
+#loanAmount,
+#conform_user,
+#conform_pin {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #444;
+    color: #fff;
+}
+
+#transfer_amount,
+#getLoan,
+#close_acc {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#transfer_amount:hover,
+#getLoan:hover,
+#close_acc:hover {
+    background-color: #45a049;
+}

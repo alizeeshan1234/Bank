@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bankist</title>
+    <link rel="stylesheet" href="bankist.css">
+</head>
+
+<body>
+
+    <h1 id="welcome">Hey There, Welcome!</h1>
+
+
+    <input id="user" class="centered-placeholder" type="text" placeholder="user" maxlength="10">
+    <input id="pin" class="centered-placeholder" type="password" type="number" placeholder="PIN" maxlength="4">
+    <button id="log">→</button>
+
+
+    <div id="show">
+        <h2>Current balance</h2>
+        <h1 id="balance">$0000</h1>
+        <div id="record"></div>
+        <div id="transfer">
+            <h2>Transfer Money</h2>
+            <input id="transferTo" type="text" placeholder="Transfer To" maxlength="10">
+            <input id="amountTransfer" type="number" placeholder="Amount">
+            <button id="transfer_amount">→</button>
+        </div>
+        <div id="loan">
+            <h2>Request Loan</h2>
+            <input id="loanAmount" type="number" placeholder="Amount">
+            <button id="getLoan">→</button>
+        </div>
+
+        <div id="close">
+            <h2>Close Account</h2>
+            <input id="conform_user" type="text" placeholder="Conform User">
+            <input id="conform_pin" type="number" placeholder="Conform PIN" maxlength="4">
+            <button id="close_acc">→</button>
+        </div>
+    </div>
+
+    <script src="bankist.js"></script>
+</body>
+
+</html>
